@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #131213;
+    color: #D0D0D0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.a1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #ccc; */
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a1 h1{
+    margin-top: 180px;
+    font-size: 50px;
+    line-height: 25px;
+}
+
+.a1 h2{
+    color: #3D3347;
+    font-size: 30px;
+}
+
+.text{
+    color: #7037AD;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+svg:hover path {
+    fill: #D0D0D0;
+}
+
+.a2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #916c6c; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    scroll-snap-align: start;
+}
+
+.a2 h2{
+    margin: 50px;
+    color: #D0D0D0;
+    text-underline-offset: 10px;
+    text-decoration: underline;
+
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #3D3347;
+    margin-bottom: 30px;
+}
+
+.a3{
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    /* background-color: #af0f0f; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a3 h2{
+    margin: 50px;
+    color: #D0D0D0;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+
+
+nav{
+    /* background-color: #ccc; */
+    width: 200px;  
+    position: fixed;
+    left: 100px;
+    top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #7037AD;
+}
+
+nav a:hover{
+    color: #D0D0D0;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+}
+
+.line-arrow{
+    margin-top: 160px;
+}
+
+.about-container{
+    width: 400px;
+}
+
+.about-container h2{
+    margin-top: 180px;
+}
+
+.projects-cards{
+    display: flex;
+    background-color: #b3b3b3;
+    width: 250px;
+    height: 400px;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
